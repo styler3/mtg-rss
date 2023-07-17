@@ -40,6 +40,7 @@ async function generateRss(pathname) {
     }
     const feed = new Feed({
         title: 'MTG News',
+        description: '',
         link: url.toString(),
         language: LANGUAGE_PATH,
         generator: 'https://github.com/styler3/mtg-rss'
