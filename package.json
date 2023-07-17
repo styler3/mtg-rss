@@ -1,0 +1,17 @@
+{
+  "name": "mtg-rss",
+  "version": "1.0.0",
+  "description": "Generate an RSS feed from the Magic The Gathering news page",
+  "author": "Sam Tyler <sam@sammtyler.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "execute": "node src/main.js"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.4.4",
+    "dompurify": "^3.0.5",
+    "feed": "^4.2.2",
+    "jsdom": "^22.1.0"
+  }
+}
